@@ -6,7 +6,9 @@ We recommend you to clone the PokeAPI repo and follow the instructions to start 
 
 1) https://github.com/PokeAPI/pokeapi#setup-
 2) https://github.com/PokeAPI/pokeapi#v2-database-setup
+
 -- OR (if you use Docker) --
+
 https://github.com/PokeAPI/pokeapi#docker
 
 If you wish to use the public one nonetheless, you need to specify the API URL at the beginning of constants.py:
