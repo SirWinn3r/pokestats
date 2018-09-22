@@ -14,7 +14,7 @@ https://github.com/PokeAPI/pokeapi#docker
 If you wish to use the public one nonetheless, you need to specify the API URL at the beginning of constants.py:
 
 ```python
-API_PATH = "API URL here"
+API_PATH = "https://pokeapi.co/api/v2/" # Or any other URL serving the PokeAPI
 ```
 
 After doing that you can start using the Pokestats CLI project:
