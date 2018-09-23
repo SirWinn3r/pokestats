@@ -62,7 +62,3 @@ class TestPokestats(unittest.TestCase):
     def test_display_pokemon_stats(self):
         pokemon_stats = get_pokemon_stats(DUMMY_POKEMON)
         self.assertDictEqual(pokemon_stats, DUMMY_POKEMON_DISPLAYED_STATS)
-
-
-if __name__ == "__main__":
-    unittest.main()
